@@ -14,7 +14,7 @@ class Auto:
     def cantidadAsientos(self):
         con=0
         for i in self.asientos:
-            if isinstance(i,self.asientos):
+            if isinstance(i,Asiento):
                 con+=1
         return con
     
