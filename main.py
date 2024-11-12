@@ -9,7 +9,7 @@ class Auto:
         self.marca = marca  
         self.motor = motor 
         self.registro = registro  
-        cantidadCreados+=1
+        Auto.cantidadCreados+=1
 
     def cantidadAsientos(self):
         con=0
